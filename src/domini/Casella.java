@@ -15,7 +15,7 @@ public class Casella {
 	private final int MINA = -1;
 	//valor de l'atribut contingut que representarà que la casella no té cap mina al voltan
 	private final int POS_BUIDA = 0;
-	//DAVID
+	
 	public Casella(Coordenada coordenada) {
 		//PENDENT IMPLEMENTAR
 	}
@@ -23,7 +23,7 @@ public class Casella {
 	/* actualitza l'atribut contingut possant'hi una mina
 	 * i crida el mètode modificarVeinsNovaMina() 
 	 * per tal d'actualitzar tots els seus veins*/
-	//DAVID
+
 	public void collocarMina(Casella[] casellesVeines) {
 		//PENDENT IMPLEMENTAR
 	}
@@ -32,46 +32,46 @@ public class Casella {
 	 * a tos els seus veins que no tinguin mina, que hi ha un nou vei amb mina. 
 	 * Caldrà doncs incrementar el nombre de veins amb mina de cada vei.*/
 	
-	//DAVID
+	
 	private void modificarVeinsNovaMina(Casella[] veins) {			
 		//PENDENT IMPLEMENTAR
 	}		
 	
 	//Retorna cert si la casella té una mina, i fals altrament
-	//AXEL
+	
 	public boolean hiHaMina() {
 		//PENDENT IMPLEMENTAR
 		return false;
 	}
 	
 	//Retorna el contingut de la casella
-	//DAVID
+	
 	public int getContingut() {
 		//PENDENT IMPLEMENTAR
 		return -100;
 	}
 
 	//Retrona cert si la casella està destapada, fals altrament
-	//DAVID
+	
 	public boolean estaDestapada() {
 		//PENDENT IMPLEMENTAR
 		return false;
 	}
 
 	//Destapa la casella
-	//AXEL
+
 	public void destapar() {
 		//PENDENT IMPLEMENTAR
 	}
 
 	//Actualitza l'atribut possibleMina
-	//AXEL
+	
 	public void setPosibleMina(boolean marca) {
 		//PENDENT IMPLEMENTAR
 	}
 	
 	//Retorna si la casella està o no marcada
-	//AXEL
+
 	public boolean estaMarcadaPosibleMina() {
 		//PENDENT IMPLEMENTAR
 		return false;
